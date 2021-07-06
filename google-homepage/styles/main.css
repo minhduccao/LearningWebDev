@@ -1,0 +1,37 @@
+.main-container {
+	display: flex;
+	flex-direction: column;
+}
+/* Top Navigation */
+.top-navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+}
+.top-navbar__item {
+	float: left;
+}
+.top-navbar__item-details {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 12px 12px;
+	text-decoration: none;
+	font-family: "Arial";
+	font-size: 14px;
+}
+.top-navbar__item-details:hover {
+	text-decoration: underline;
+}
+/* Google Logo */
+.logo-container {
+	display: flex;
+	padding-top: 50px;
+	justify-content: center;
+}
+/* Search Bar  */
+.search-bar {
+	display: flex;
+	justify-content: center;
+	padding-top: 35px;
+}
