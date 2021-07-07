@@ -52,27 +52,6 @@ header {
 .header-right-navbar__item:hover {
 	text-decoration: underline;
 }
-
-/* .top-navbar {
-	list-style-type: none;
-	margin: 0;
-	padding: 10px;
-}
-.top-navbar__item {
-	float: left;
-}
-.top-navbar__item-details {
-	display: block;
-	color: black;
-	text-align: center;
-	padding: 12px 12px;
-	text-decoration: none;
-	font-family: "Arial";
-	font-size: 14px;
-}
-.top-navbar__item-details:hover {
-	text-decoration: underline;
-} */
 /* Google Logo */
 .logo-container {
 	display: flex;
