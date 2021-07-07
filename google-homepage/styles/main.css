@@ -73,3 +73,26 @@
 	border-color: lightgrey;
 }
 /* Footer Navbar */
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #e9f2fd;
+}
+.footer-navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+}
+.footer-navbar__item {
+	float: left;
+}
+.footer-navbar__item-details {
+	display: block;
+	color: gray;
+	text-align: center;
+	padding: 12px 12px;
+	text-decoration: none;
+	font-family: "Arial";
+	font-size: 14px;
+}
