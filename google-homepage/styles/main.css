@@ -4,7 +4,56 @@
 	justify-content: center;
 }
 /* Top Navigation */
-.top-navbar {
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+}
+.header-left-navbar {
+	padding-top: 12px;
+	padding-left: 18px;
+	display: flex;
+}
+.header-right-navbar {
+	padding-top: 12px;
+	padding-right: 18px;
+	display: flex;
+}
+.header-left-navbar > * {
+	padding: 12px;
+	color: black;
+	font-family: "Arial";
+	font-size: 14px;
+	text-decoration: none;
+}
+.header-left-navbar > *:hover {
+	text-decoration: underline;
+}
+.header-right-navbar__profile {
+	width: 32px;
+	height: 32px;
+	padding-top: 3px;
+	padding-left: 20px;
+}
+.header-right-navbar__apps {
+	width: 24px;
+	height: 24px;
+	padding-top: 7px;
+	padding-left: 20px;
+}
+.header-right-navbar__item {
+	padding: 12px;
+	color: black;
+	font-family: "Arial";
+	font-size: 14px;
+	text-decoration: none;
+}
+.header-right-navbar__item:hover {
+	text-decoration: underline;
+}
+
+/* .top-navbar {
 	list-style-type: none;
 	margin: 0;
 	padding: 10px;
@@ -23,7 +72,7 @@
 }
 .top-navbar__item-details:hover {
 	text-decoration: underline;
-}
+} */
 /* Google Logo */
 .logo-container {
 	display: flex;
@@ -49,8 +98,6 @@
 	position: relative;
 	top: -33px;
 	left: -17%;
-	/* top: 280px; */
-	/* left: 33%; */
 	color: lightgray;
 	z-index: 1;
 }
